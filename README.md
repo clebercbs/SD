@@ -10,8 +10,6 @@
 - [Instruções de Instalação](#instruções-de-instalação)
 - [Como Usar](#como-usar)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ---
 
@@ -87,24 +85,3 @@ A aula busca introduzir os alunos aos conceitos fundamentais de sistemas distrib
 
 - Linguagem de Programação: Java
 - Ferramentas de distribuição: RMI, Sockets
-
----
-
-## Contribuição
-
-Contribuições são bem-vindas! Para isso:
-
-1. Faça um fork do repositório.
-2. Crie um branch para a sua feature ou correção:
-
-   ```bash
-   git checkout -b minha-feature
-   ```
-
-3. Faça um pull request para o branch principal.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
