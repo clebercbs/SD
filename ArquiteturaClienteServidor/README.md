@@ -1,18 +1,42 @@
-## Getting Started
+# Sistemas Distribuídos - Primeira Aula Prática
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Badge de Status](http://img.shields.io/static/v1?label=STATUS&message=Concluído&color=GREEN&style=for-the-badge)
 
-## Folder Structure
+## Índice
 
-The workspace contains two folders by default, where:
+- [Descrição](#descrição)
+- [Objetivo](#objetivo)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Instruções de Instalação](#instruções-de-instalação)
+- [Como Usar](#como-usar)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Descrição
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este repositório contém o material relacionado à primeira aula prática do curso de **Sistemas Distribuídos**, com foco na introdução de conceitos básicos e experimentos iniciais utilizando a arquitetura cliente-servidor com **Sockets**.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Objetivo
+
+A aula busca introduzir os alunos aos conceitos fundamentais de sistemas distribuídos, incluindo:
+
+- Configuração de ambientes distribuídos.
+- Execução de aplicações cliente-servidor.
+- Análise de comunicação entre processos utilizando sockets.
+
+---
+
+## Estrutura do Projeto
+
+```plaintext
+/
+├── ArquiteturaClienteServidor/ # Implementação cliente-servidor
+│   ├── Cliente.java           # Código do cliente
+│   ├── Servidor.java          # Código do servidor
+│   └── README.md              # Informações do projeto
+└── README.md                 # Informações gerais do repositório
